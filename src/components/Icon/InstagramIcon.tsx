@@ -2,7 +2,6 @@ import {FC, memo} from 'react';
 
 import Icon, {IconProps} from './Icon';
 
-
 const InstagramIcon: FC<IconProps> = memo(props => (
   <Icon {...props}>
     <path
@@ -19,7 +18,6 @@ const InstagramIcon: FC<IconProps> = memo(props => (
     />
   </Icon>
 ));
-
 
 export default InstagramIcon;
 // export default LeetCodeIcon;
