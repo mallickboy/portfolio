@@ -16,7 +16,7 @@ const Socials: FC = memo(() => {
       ))}
     </>
   );
-});
+}); 
 
 Socials.displayName = 'Socials';
 export default Socials;

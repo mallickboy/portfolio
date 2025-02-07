@@ -19,7 +19,7 @@ const Footer: FC = memo(() => (
       <div className="flex gap-x-4 text-neutral-500">
         <Socials />
       </div>
-      <a
+      {/* <a
         className="-m-2 flex items-center gap-x-1 rounded-md p-2 ring-yellow focus:outline-none focus:ring-2"
         href="https://reactresume.com">
         <BoltIcon className="h-5 w-5 text-yellow" />
@@ -27,8 +27,8 @@ const Footer: FC = memo(() => (
           Provided by <span className="text-white">React</span>
           <span className="italic text-yellow">Resume</span>
         </span>
-      </a>
-      <span className="text-sm text-neutral-700">© Copyright {currentYear} Tim Baker</span>
+      </a> */}
+      <span className="text-sm text-neutral-700">© Copyright {currentYear} mallickboy</span>
     </div>
   </div>
 ));
