@@ -93,9 +93,10 @@ export const heroData: Hero = {
   ),
   actions: [
     {
-      href: '/assets/resume.pdf',
+      href: '/resume.pdf',
       text: 'Resume',
       primary: true,
+      my_target: "_blank",
       Icon: ArrowDownTrayIcon,
     },
     {
