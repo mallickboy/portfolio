@@ -44,7 +44,7 @@ import {
  * Page meta data
  */
 export const homePageMeta: HomepageMeta = {
-  title: 'mallickboy | Tamal Mallick | Portfolio',
+  title: 'Tamal Mallick | mallickboy | Portfolio',
   description:
     'Portfolio of Tamal Mallick ( mallickboy ), showcasing professional experience, projects, and achievements in the field of software development.',
 };
@@ -254,26 +254,6 @@ export const portfolioItems_example: PortfolioItem[] = [
 
 export const portfolioItems: PortfolioItem[] = [
   {
-    title: 'Python Search Engine',
-    description:
-      'A domain-specific Python search engine leveraging Flask, Pinecone, and Sentence Transformers for semantic search. Deployed on Azure with Gunicorn, Nginx, and SSL for secure and scalable performance.',
-    url: 'https://github.com/mallickboy/Python_Search_Engine',
-    image: porfolioImage1,
-  },
-  {
-    title: 'EdTech Platform',
-    description:
-      'An innovative EdTech platform built with ReactJS, Node.js, and MongoDB, enabling seamless course management, user interaction, and real-time updates.',
-    url: 'https://github.com/mallickboy/EdTech.github.io',
-    image: porfolioImage2,
-  },
-  {
-    title: 'Youtube to MP4 and MP3 Downloader',
-    description: 'A tool to download YouTube videos as MP4 and MP3, packaged with a Windows installer.',
-    url: 'https://github.com/mallickboy/Youtube-to-MP4-and-MP3-downloader-with-Windows-Installer',
-    image: porfolioImage3,
-  },
-  {
     title: 'AI-Powered Surveillance Vehicle',
     description:
       'AI-powered surveillance vehicle with ESP32-CAM for real-time streaming and YOLO-based object detection. Features robotics-based GPIO control, web APIs for remote control via PyQt5, and real-time detection.',
@@ -282,9 +262,30 @@ export const portfolioItems: PortfolioItem[] = [
   },
   {
     title: 'SenpaiType',
-    description: 'A minimal typing practice website, inspired by Monkeytype, with no features except typing practice.',
+    description:
+      'Contributed to a minimal typing practice website, inspired by Monkeytype, with no features except typing practice.',
     url: 'https://github.com/mallickboy/SenpaiType',
     image: porfolioImage5,
+  },
+  {
+    title: 'Python Search Engine',
+    description:
+      'A domain-specific Python search engine leveraging Flask, Pinecone, and Sentence Transformers for semantic search. Deployed on Azure with Gunicorn, Nginx, and SSL for secure and scalable performance.',
+    url: 'https://github.com/mallickboy/Python_Search_Engine',
+    image: porfolioImage2,
+  },
+  {
+    title: 'EdTech Platform',
+    description:
+      'An innovative EdTech platform built with ReactJS, Node.js, and MongoDB, enabling seamless course management, user interaction, and real-time updates.',
+    url: 'https://github.com/mallickboy/EdTech.github.io',
+    image: porfolioImage9,
+  },
+  {
+    title: 'Youtube to MP4 and MP3 Downloader',
+    description: 'A tool to download YouTube videos as MP4 and MP3, packaged with a Windows installer.',
+    url: 'https://github.com/mallickboy/Youtube-to-MP4-and-MP3-downloader-with-Windows-Installer',
+    image: porfolioImage3,
   },
   {
     title: 'FREDS',
@@ -294,25 +295,18 @@ export const portfolioItems: PortfolioItem[] = [
     image: porfolioImage6,
   },
   {
-    title: 'Python Web Scraper',
-    description:
-      'A Python-based web scraper to extract relevant data and store it in structured formats for further analysis.',
-    url: 'https://github.com/mallickboy/Python-Web-Scraper',
-    image: porfolioImage7,
-  },
-  {
-    title: 'Real-Time Gesture Recognition System',
+    title: 'Virtual Mouse',
     description:
       'A gesture recognition system using OpenCV and MediaPipe for real-time interaction with applications like video games.',
-    url: 'https://github.com/mallickboy/Real-Time-Gesture-Recognition-System',
+    url: 'https://github.com/mallickboy/VirtualMouse',
     image: porfolioImage8,
   },
   {
-    title: 'Fictional AI Chatbot',
+    title: 'Fiteness App',
     description:
-      'AI-driven chatbot designed for interactive conversations with users, showcasing NLP techniques and conversation flow design.',
+      ' A Node.js and MongoDB-based application providing fitness, diet, and exercise recommendations based on fitness tracking and daily steps via an Android app.',
     url: 'https://github.com/mallickboy/Fictional-Chatbot',
-    image: porfolioImage9,
+    image: porfolioImage1,
   },
   {
     title: 'Daily Task Management System',
@@ -320,19 +314,19 @@ export const portfolioItems: PortfolioItem[] = [
     url: 'https://github.com/mallickboy/Daily-Task-Management-System',
     image: porfolioImage10,
   },
-  {
-    title: 'Gesture-Controlled Video Games',
-    description:
-      'A system that allows controlling video games through hand gestures using a camera, including integration with popular games like Valorant.',
-    url: 'https://github.com/mallickboy/Gesture-Controlled-Video-Games',
-    image: porfolioImage11,
-  },
+  // {
+  //   title: 'Gesture-Controlled Video Games',
+  //   description:
+  //     'A system that allows controlling video games through hand gestures using a camera, including integration with popular games like Valorant.',
+  //   url: 'https://github.com/mallickboy/Gesture-Controlled-Video-Games',
+  //   image: porfolioImage11,
+  // },
   {
     title: 'Cyclone Intensity Prediction',
     description:
       'A deep learning project focusing on predicting cyclone intensity and track using satellite data, achieving 99.6% accuracy.',
-    url: 'https://github.com/mallickboy/Cyclone-Intensity-Prediction',
-    image: porfolioImage1,
+    url: 'https://github.com/mallickboy/Cyclone-Intensity-and-Track-Prediction-using-Deep-Learning',
+    image: porfolioImage7,
   },
 ];
 
