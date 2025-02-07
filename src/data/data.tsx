@@ -44,7 +44,7 @@ import {
  * Page meta data
  */
 export const homePageMeta: HomepageMeta = {
-  title: 'Tamal Mallick | mallickboy | Portfolio',
+  title: 'Tamal Mallick | Portfolio | mallickboy',
   description:
     'Portfolio of Tamal Mallick ( mallickboy ), showcasing professional experience, projects, and achievements in the field of software development.',
 };
@@ -77,16 +77,16 @@ export const heroData: Hero = {
         {/* I'm a Victoria based <strong className="text-stone-100">Full Stack Software Engineer</strong>, currently working
         at <strong className="text-stone-100">Instant Domains</strong> helping build a modern, mobile-first, domain
         registrar and site builder. */}
-        I specialize in building scalable <strong className="text-stone-100">backend systems</strong> and APIs with
-        <strong className="text-stone-100">Python</strong>, <strong className="text-stone-100">Node.js</strong>, and
-        <strong className="text-stone-100">cloud technologies</strong>. With a strong foundation in
-        <strong className="text-stone-100">AI/ML</strong>, I integrate intelligent solutions into applications to boost
+        I specialize in building scalable <strong className="text-stone-100">backend systems</strong> and APIs with  
+        <strong className="text-stone-100"> Python</strong>, <strong className="text-stone-100"> Node.js</strong>, and 
+        <strong className="text-stone-100"> cloud technologies</strong>. With a strong foundation in
+        <strong className="text-stone-100"> AI/ML</strong>, I integrate intelligent solutions into applications to boost
         performance and enhance user experience. I also bring experience in{' '}
-        <strong className="text-stone-100">Full-Stack Development</strong>, crafting end-to-end solutions built on
+        <strong className="text-stone-100"> Full-Stack Development</strong>, crafting end-to-end solutions built on
         robust backend architectures.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time, I love exploring emerging <strong className="text-stone-100">tech trends</strong>,
+        In my free time, I love exploring emerging <strong className="text-stone-100"> tech trends</strong>,
         experimenting with new tools, and diving into innovative projects that push the boundaries of what's possible.
       </p>
     </>
