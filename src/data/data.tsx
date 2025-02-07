@@ -45,7 +45,8 @@ import {
  */
 export const homePageMeta: HomepageMeta = {
   title: 'mallickboy | Tamal Mallick | Portfolio',
-  description: 'Portfolio of Tamal Mallick ( mallickboy ), showcasing professional experience, projects, and achievements in the field of software development.',
+  description:
+    'Portfolio of Tamal Mallick ( mallickboy ), showcasing professional experience, projects, and achievements in the field of software development.',
 };
 
 /**
@@ -73,25 +74,23 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-
         {/* I'm a Victoria based <strong className="text-stone-100">Full Stack Software Engineer</strong>, currently working
         at <strong className="text-stone-100">Instant Domains</strong> helping build a modern, mobile-first, domain
         registrar and site builder. */}
-
-        I specialize in building scalable <strong className="text-stone-100">backend systems</strong> and APIs with 
-        <strong className="text-stone-100">Python</strong>, <strong className="text-stone-100">Node.js</strong>, and 
-        <strong className="text-stone-100">cloud technologies</strong>. With a strong foundation in 
-        <strong className="text-stone-100">AI/ML</strong>, I integrate intelligent solutions into applications to boost 
-        performance and enhance user experience. I also bring experience in <strong className="text-stone-100">Full-Stack 
-        Development</strong>, crafting end-to-end solutions built on robust backend architectures.
-
+        I specialize in building scalable <strong className="text-stone-100">backend systems</strong> and APIs with
+        <strong className="text-stone-100">Python</strong>, <strong className="text-stone-100">Node.js</strong>, and
+        <strong className="text-stone-100">cloud technologies</strong>. With a strong foundation in
+        <strong className="text-stone-100">AI/ML</strong>, I integrate intelligent solutions into applications to boost
+        performance and enhance user experience. I also bring experience in{' '}
+        <strong className="text-stone-100">Full-Stack Development</strong>, crafting end-to-end solutions built on
+        robust backend architectures.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-      In my free time, I love exploring emerging <strong className="text-stone-100">tech trends</strong>, 
-      experimenting with new tools, and diving into innovative projects that push the boundaries of what's possible.
+        In my free time, I love exploring emerging <strong className="text-stone-100">tech trends</strong>,
+        experimenting with new tools, and diving into innovative projects that push the boundaries of what's possible.
       </p>
     </>
-  ),  
+  ),
   actions: [
     {
       href: '/assets/resume.pdf',
@@ -150,33 +149,33 @@ export const skills: SkillGroup[] = [
   {
     name: 'Backend Development',
     skills: [
-      { name: 'Python', level: 9 },
-      { name: 'Node.js', level: 7 },
-      { name: 'Cloud Technologies', level: 8 },
+      {name: 'Python', level: 9},
+      {name: 'Node.js', level: 7},
+      {name: 'Cloud Technologies', level: 8},
     ],
   },
   {
     name: 'Python Development',
     skills: [
-      { name: 'Flask Microframework', level: 9 },
-      { name: 'FastAPI', level: 9 },
-      { name: 'Django Framework', level: 4 },
+      {name: 'Flask Microframework', level: 9},
+      {name: 'FastAPI', level: 9},
+      {name: 'Django Framework', level: 4},
     ],
   },
   {
     name: 'Artificial Intelligence and Machine Learning',
     skills: [
-      { name: 'Machine Learning', level: 6 },
-      { name: 'Deep Learning', level: 9 },
-      { name: 'Natural Language Processing', level: 8 },
+      {name: 'Machine Learning', level: 6},
+      {name: 'Deep Learning', level: 9},
+      {name: 'Natural Language Processing', level: 8},
     ],
   },
   {
     name: 'Full-Stack Development',
     skills: [
-      { name: 'React Framework', level: 7 },
-      { name: 'HTML5/CSS3', level: 8 },
-      { name: 'Bootstrap', level: 4 },
+      {name: 'React Framework', level: 7},
+      {name: 'HTML5/CSS3', level: 8},
+      {name: 'Bootstrap', level: 4},
     ],
   },
 ];
@@ -256,13 +255,15 @@ export const portfolioItems_example: PortfolioItem[] = [
 export const portfolioItems: PortfolioItem[] = [
   {
     title: 'Python Search Engine',
-    description: 'A domain-specific Python search engine leveraging Flask, Pinecone, and Sentence Transformers for semantic search. Deployed on Azure with Gunicorn, Nginx, and SSL for secure and scalable performance.',
+    description:
+      'A domain-specific Python search engine leveraging Flask, Pinecone, and Sentence Transformers for semantic search. Deployed on Azure with Gunicorn, Nginx, and SSL for secure and scalable performance.',
     url: 'https://github.com/mallickboy/Python_Search_Engine',
     image: porfolioImage1,
   },
   {
     title: 'EdTech Platform',
-    description: 'An innovative EdTech platform built with ReactJS, Node.js, and MongoDB, enabling seamless course management, user interaction, and real-time updates.',
+    description:
+      'An innovative EdTech platform built with ReactJS, Node.js, and MongoDB, enabling seamless course management, user interaction, and real-time updates.',
     url: 'https://github.com/mallickboy/EdTech.github.io',
     image: porfolioImage2,
   },
@@ -274,7 +275,8 @@ export const portfolioItems: PortfolioItem[] = [
   },
   {
     title: 'AI-Powered Surveillance Vehicle',
-    description: 'AI-powered surveillance vehicle with ESP32-CAM for real-time streaming and YOLO-based object detection. Features robotics-based GPIO control, web APIs for remote control via PyQt5, and real-time detection.',
+    description:
+      'AI-powered surveillance vehicle with ESP32-CAM for real-time streaming and YOLO-based object detection. Features robotics-based GPIO control, web APIs for remote control via PyQt5, and real-time detection.',
     url: 'https://github.com/mallickboy/AI-Powered-Surveillance-Vehicle',
     image: porfolioImage4,
   },
@@ -286,25 +288,29 @@ export const portfolioItems: PortfolioItem[] = [
   },
   {
     title: 'FREDS',
-    description: 'Blockchain-based social media platform for decentralized user interaction, integrating AI to monitor abusive content.',
+    description:
+      'Blockchain-based social media platform for decentralized user interaction, integrating AI to monitor abusive content.',
     url: 'https://github.com/mallickboy/FREDS_SC0',
     image: porfolioImage6,
   },
   {
     title: 'Python Web Scraper',
-    description: 'A Python-based web scraper to extract relevant data and store it in structured formats for further analysis.',
+    description:
+      'A Python-based web scraper to extract relevant data and store it in structured formats for further analysis.',
     url: 'https://github.com/mallickboy/Python-Web-Scraper',
     image: porfolioImage7,
   },
   {
     title: 'Real-Time Gesture Recognition System',
-    description: 'A gesture recognition system using OpenCV and MediaPipe for real-time interaction with applications like video games.',
+    description:
+      'A gesture recognition system using OpenCV and MediaPipe for real-time interaction with applications like video games.',
     url: 'https://github.com/mallickboy/Real-Time-Gesture-Recognition-System',
     image: porfolioImage8,
   },
   {
     title: 'Fictional AI Chatbot',
-    description: 'AI-driven chatbot designed for interactive conversations with users, showcasing NLP techniques and conversation flow design.',
+    description:
+      'AI-driven chatbot designed for interactive conversations with users, showcasing NLP techniques and conversation flow design.',
     url: 'https://github.com/mallickboy/Fictional-Chatbot',
     image: porfolioImage9,
   },
@@ -316,18 +322,19 @@ export const portfolioItems: PortfolioItem[] = [
   },
   {
     title: 'Gesture-Controlled Video Games',
-    description: 'A system that allows controlling video games through hand gestures using a camera, including integration with popular games like Valorant.',
+    description:
+      'A system that allows controlling video games through hand gestures using a camera, including integration with popular games like Valorant.',
     url: 'https://github.com/mallickboy/Gesture-Controlled-Video-Games',
     image: porfolioImage11,
   },
   {
     title: 'Cyclone Intensity Prediction',
-    description: 'A deep learning project focusing on predicting cyclone intensity and track using satellite data, achieving 99.6% accuracy.',
+    description:
+      'A deep learning project focusing on predicting cyclone intensity and track using satellite data, achieving 99.6% accuracy.',
     url: 'https://github.com/mallickboy/Cyclone-Intensity-Prediction',
     image: porfolioImage1,
   },
 ];
-
 
 /**
  * Resume section -- TODO: Standardize resume contact format or offer MDX
@@ -337,14 +344,27 @@ export const education: TimelineItem[] = [
     date: 'May 2025',
     location: 'Indian Institute of Information Technology (IIIT), Kalyani',
     title: 'Bachelors in Computer Science and Engineering',
-    content: <p>At IIIT Kalyani, I built a strong foundation in computer science, focusing on algorithms, data structures, and software engineering. I gained hands-on experience in backend development, AI/ML, and full-stack development using Python, Node.js, and C++. I also explored cloud technologies and microservices, working on projects that emphasized scalability and performance.</p>,
-  },  
+    content: (
+      <p>
+        At IIIT Kalyani, I built a strong foundation in computer science, focusing on algorithms, data structures, and
+        software engineering. I gained hands-on experience in backend development, AI/ML, and full-stack development
+        using Python, Node.js, and C++. I also explored cloud technologies and microservices, working on projects that
+        emphasized scalability and performance.
+      </p>
+    ),
+  },
   {
     date: 'March 2021',
-    location: 'New Barrackpore Colony Boys\' High School',
+    location: "New Barrackpore Colony Boys' High School",
     title: 'Higher Secondary Education (Class 12)',
-    content: <p>During high school, I excelled in Mathematics, Physics, and Computer Science, which sparked my interest in technology and problem-solving. The experience fostered my critical thinking, time management, and teamwork skills—key assets in my academic and professional journey.</p>,
-  }  
+    content: (
+      <p>
+        During high school, I excelled in Mathematics, Physics, and Computer Science, which sparked my interest in
+        technology and problem-solving. The experience fostered my critical thinking, time management, and teamwork
+        skills—key assets in my academic and professional journey.
+      </p>
+    ),
+  },
 ];
 
 export const experience: TimelineItem[] = [
@@ -354,20 +374,26 @@ export const experience: TimelineItem[] = [
     title: 'Deep Learning Intern - Cyclone Intensity and Track Prediction',
     content: (
       <p>
-        I worked on a SERB-funded project focused on predicting cyclone intensity and track using deep learning. I analyzed satellite data to predict cyclone characteristics like wind speed, central pressure, and path. Using CNN, TensorFlow, and YOLO, I helped achieve 99.6% accuracy in predicting central pressure. This experience deepened my knowledge of AI/ML, data analysis, and predictive modeling.  
+        I worked on a SERB-funded project focused on predicting cyclone intensity and track using deep learning. I
+        analyzed satellite data to predict cyclone characteristics like wind speed, central pressure, and path. Using
+        CNN, TensorFlow, and YOLO, I helped achieve 99.6% accuracy in predicting central pressure. This experience
+        deepened my knowledge of AI/ML, data analysis, and predictive modeling.
       </p>
     ),
-  },  
+  },
   {
     date: 'February 2025 - Present',
     location: 'CodSoft AI Internship',
     title: 'AI Intern - Chatbot Development',
     content: (
       <p>
-        Currently, I'm working on building a simple chatbot at CodSoft using predefined rules and pattern matching techniques to process user queries. This internship is enhancing my skills in Natural Language Processing (NLP) and conversational AI. I'm excited to explore more about AI-driven solutions and improve my understanding of conversational interfaces.
+        Currently, I'm working on building a simple chatbot at CodSoft using predefined rules and pattern matching
+        techniques to process user queries. This internship is enhancing my skills in Natural Language Processing (NLP)
+        and conversational AI. I'm excited to explore more about AI-driven solutions and improve my understanding of
+        conversational interfaces.
       </p>
     ),
-  },  
+  },
 ];
 
 /**
@@ -380,7 +406,7 @@ export const testimonial: TestimonialSection = {
       name: 'Dr. Uma Das (Professor, Physics, Space and Atmospheric Science, IIIT Kalyani)',
       text: 'Among all the students I have seen till today, he is among the top 1% in terms of capability, learning, sincerity, and perseverance.',
       image: 'https://iiitkalyani.ac.in/images/staff/udmain.jpg',
-    }
+    },
   ],
 };
 
